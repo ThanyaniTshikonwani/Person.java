@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(" ");
 
-        Person myinfor =new Person("Ryan",30,"male", new String[]{"being a hardarse","agile","and ssd hard drives."});
-        String hello = myinfor.hello();
+        Person person =new Person("Ryan",30,"male", new String[]{"being a hardarse","agile","and ssd hard drives."});
+        String hello = person.hello();
         System.out.println(hello);
 
         // test for OOP object

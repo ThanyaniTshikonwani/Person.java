@@ -5,17 +5,17 @@ public class Person {
     String name;
     int age;
     String gender;
-    String [] intrest;
+    String [] interest;
 
-    public Person(String name, int age, String gender, String[] intrest) {
+    public Person(String name, int age, String gender, String[] interest) {
         this.name = name;
         this.age = age;
         this.gender = gender;
-        this.intrest = intrest;
+        this.interest = interest;
     }
 
     public String hello(){
-        String greetings = String.format("Hello, my name is %s and I am %d years old %s. MY intrest are %s%n", name, age, gender, Arrays.toString(intrest).replace("[" , "").replace("]", ""));
+        String greetings = String.format("Hello, my name is %s and I am %d years old %s. MY interest are %s%n", name, age, gender, Arrays.toString(interest).replace("[" , "").replace("]", ""));
         return greetings;
     }
 }
